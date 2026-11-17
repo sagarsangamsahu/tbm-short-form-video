@@ -1,19 +1,22 @@
 # TBM Short-Form Video
 
-A free AI reel editor from **Sagar Sangam Sahu** (Tribe Building Mastermind).
-Drop in one short video (up to 3 minutes), type what you want, and get a finished vertical reel, Short or ad with captions, zooms, a hook headline, an optional call-to-action end card and a ready post caption.
+A free AI editor for short videos, from **Sagar Sangam Sahu** (Tribe Building Mastermind).
+Drop in one short video (up to 3 minutes), type what you want, and get finished reels, YouTube Shorts, TikToks and ads.
 
-- Works in the Claude desktop app (Code tab) on Mac and Windows. No Terminal, no coding.
-- Reels, ads, client testimonials and launch promos.
-- English, Hindi or Hinglish captions, in Roman or Devanagari.
-- Short-form only. Long videos (podcasts, webinars) are part of the TBM programme.
+**Many variations from one video**
+- Formats: organic reel, paid ad, client testimonial, promo or launch, tips list, story, quote clip
+- 3 hook versions to test, a full cut and a 15-30 s teaser
+- 3 caption looks (karaoke, plain, one big word), shown side by side on your own video
+- Shapes: 9:16 (Reels, Shorts, TikTok), 4:5 (feed), 1:1 (square)
 
-## Install
-1. Install the Claude app from claude.ai/download and open the **Code** tab.
-2. Make a folder called **My Reels** and open it in a new Code session.
-3. Send: `Install the TBM Short-Form Video skill from https://github.com/sagarsangamsahu/tbm-short-form-video into my Claude skills folder, run its setup until it says READY, and make Raw Footage, Reference and Export folders here. Never ask me to use Terminal.`
-4. Quit and reopen Claude. Drop a video into **Raw Footage** and say: `Use the TBM Gift video editor to edit <file> into a reel.`
+**Works where you are:** Claude Code in the browser (claude.ai/code, any computer), or the Claude desktop app on Windows and Mac. It finds out where it is running by itself. No Terminal, no coding, no paid tools.
 
-The skill lives in [`tbm-gift-video-editor/`](tbm-gift-video-editor/SKILL.md). It also works in other agents that read `SKILL.md` or `AGENTS.md` (for example Codex).
+**Any language:** English, Hindi, Hinglish, Tamil, Telugu, Bengali, Odia, Gujarati, Marathi and more. Captions in the language and script you choose.
+
+Short-form only. Turning long videos (podcasts, webinars) into many reels is part of the TBM programme.
+
+## Use it
+- **In the browser:** open claude.ai/code, start a session, attach [`tbm-short-form-video/SKILL.md`](tbm-short-form-video/SKILL.md) and type `START`.
+- **In the desktop app (Windows or Mac):** open the Code tab in any folder and send: `Install the TBM Short-Form Video skill from https://github.com/sagarsangamsahu/tbm-short-form-video into my Claude skills folder.` Quit and reopen Claude, then say `START`.
 
 Made your first reel? Tag **@sagarsangamsahu** on Instagram.
